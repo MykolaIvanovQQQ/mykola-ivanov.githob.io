@@ -1,0 +1,320 @@
+/* font */
+
+@font-face {
+    font-family: "champagne_limousines";
+    src: url(/fonts/champagne_limousines.ttf);
+}
+
+@font-face {
+    font-family: "champagne_limousines_thick";
+    src: url(/fonts/champagne_limousines_thick.ttf);
+}
+
+@font-face {
+    font-family: "helveticaneueltstd";
+    src: url(/fonts/helveticaneueltstd.otf);
+}
+
+@font-face {
+    font-family: "helveticaneueltstd_roman";
+    src: url(/fonts/helveticaneueltstd_roman.otf);
+}
+
+
+
+*{ 
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    background-image: url(/image/background.png);
+}
+
+.top_tab {
+    height: 100px;
+}
+
+.centr_div{
+    height: 430px;
+    background-color: white;
+    -webkit-box-shadow: 0px 11px 25px -9px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 11px 25px -9px rgba(0,0,0,0.41);
+    box-shadow: 0px 11px 25px -9px rgba(0,0,0,0.41);
+}
+
+.header {
+    height: 70px;
+    /* backgraund gradient */
+    background: -webkit-linear-gradient(top, rgb(187, 18, 14), rgb(145, 3, 0));
+    background: -moz-linear-gradient(top, rgb(187, 18, 14), rgb(145, 3, 0));
+    background: linear-gradient(top, rgb(187, 18, 14), rgb(145, 3, 0));
+}
+
+.navbar_menu a {
+    color: white;
+    display: block;
+    width: 80px;
+    height: 40px;
+    padding-top: 30px;
+    float: right;
+    text-align: center;
+    font-family: "champagne_limousines_thick";
+    font-size: 13pt;
+}
+
+.navbar_menu a:hover {
+    color: rgb(214, 184, 184);
+}
+
+.gliph_a {
+    color: white;
+    position: fixed;
+    float: right;
+    margin-top: 60px;
+    margin-right: -45px;
+}
+
+.my_name {
+    display: block;
+    width: auto;
+    font-size: 30pt;
+    font-family: "champagne_limousines";
+    color: white;
+    margin: 0;
+    padding-left: 23px;
+    padding-top: 13px;
+}
+
+.for_me {
+    height: 164px;
+    margin: 24px 21px 0 23px;
+}
+
+.my_photo {
+    border: 5px solid rgb(187, 18, 14);
+    margin: 15px 40px auto;    
+}
+
+.title_text {
+    font-size: 20pt;
+    font-family: "helveticaneueltstd";
+    color: rgb(149, 5, 2);
+    margin-left: 40px;
+    width: auto;
+}
+
+.my_text {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.my_text p {
+    font-size: 12pt;
+    font-family: "helveticaneueltstd_roman";
+}
+
+.my_text span {
+    margin-left: 0;
+}
+
+.my_skills,
+.for_me {
+    color: rgb(54, 54, 54);
+}
+
+.my_skills {
+    padding: 34px 0 30px 24px;
+    font-family: "helveticaneueltstd_roman";
+}
+
+.my_skills ul {
+    list-style-image: url(/image/li.png);
+    column-count: 2;
+    list-style-position: inside;
+    font-size: 12pt;
+    padding-left: 28px;
+    width: 500px;
+    line-height: 200%;
+}
+
+.dwl_resume {
+    width: 144px;
+    height: 40px;
+    border-radius: 3px;
+    float: right;
+    margin-right: 80px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, rgb(187, 18, 14), rgb(146, 4, 1));
+    background-image: -moz-linear-gradient(top, rgb(187, 18, 14), rgb(146, 4, 1));
+    background-image: linear-gradient(top, rgb(187, 18, 14), rgb(146, 4, 1));
+    vertical-align: middle;
+}
+
+.dwl_resume a {
+    color: rgb(235, 204, 204);
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 6px;
+}
+
+.dwl_resume:visited {
+    color: rgb(235, 204, 204);
+}
+
+.dwl_resume span {
+    font-size: 9pt;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    border: 1px solid rgb(186, 11, 7);
+    background-color: rgb(154, 2, 2);
+    margin-left: 25px;
+    padding-top: 5px;
+}
+/*style to work*/
+
+.work_div {
+    margin-top: 20px;
+}
+
+.my_work_row {
+    height: 150px;
+}
+
+.my_work {
+    text-align: center;
+    
+    width: 205px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #868078;
+    -webkit-box-shadow: 0px 11px 25px -9px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 11px 25px -9px rgba(0,0,0,0.41);
+    box-shadow: 0px 11px 25px -9px rgba(0,0,0,0.41);
+}
+
+.my_work p {
+    margin-top: -70px;
+    opacity: 0;
+    font-family: "champagne_limousines_thick";
+    font-size: 24pt;
+    color: black;
+}
+
+.my_work span {
+    display: block;
+    margin-top: 30px;
+    font-family: "champagne_limousines_thick";
+    font-size: 24pt;
+    color: white;
+}
+
+.my_work:hover img {
+    opacity: 0.5;
+    filter: opacity(50);
+}
+
+.my_work:not(hover) img {
+    opacity: 1;
+    filter: opacity(100);
+    
+}
+
+.my_work:hover p {
+    opacity: 1;
+    filter: opacity(100);
+}
+
+.my_work:not(hover) p {
+    opacity: 0;
+    filter: opacity(0);
+    
+}
+
+/*style to contact*/
+.contacts {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: "helveticaneueltstd_roman";
+}
+
+.contacts p {
+    font-size: 20pt;
+    color: rgb(46, 46, 46);
+}
+
+.contacts form {
+    width: 460px;
+    height: 270px;
+    float: left;
+}
+
+.contacts label {
+    color: rgb(149, 5, 2);
+    font-size: 12pt;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100px;
+    
+}
+
+.contacts input[type="text"],
+.contacts textarea {
+    display: inline-block;
+    background-color: rgb(242, 242, 242);
+    padding: 5px;
+    padding-left: 15px;
+    width: 356px;
+    border: none;
+    outline: none;
+}
+
+.messange {
+    resize: none;
+    height: 90px;
+    float: right;
+}
+
+.contacts input[type="submit"] {
+    outline: none;
+    margin: 15px;
+    margin-right: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-image: -webkit-linear-gradient(top, rgb(225, 63, 59), rgb(148, 4, 1));
+    background-image: -moz-linear-gradient(top, rgb(225, 63, 59), rgb(148, 4, 1));
+    background-image: linear-gradient(top, rgb(225, 63, 59), rgb(148, 4, 1));
+    float: right;
+    border: 0;
+    font-size: 12pt;
+}
+
+.my_contact {
+    float: right;
+    width: 150px;
+    height: 270px;    
+    font-family: "helveticaneueltstd_roman";
+    margin-right: 60px;
+}
+
+.my_contact span {
+    color: rgb(214, 214, 214);
+    font-size: 12pt;
+}
+
+.my_contact p {
+    color: rgb(46, 46, 46);
+    font-size: 12pt;
+}
+
+.line {
+    padding: 25px;
+}
